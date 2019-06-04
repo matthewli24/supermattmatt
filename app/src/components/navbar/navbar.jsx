@@ -20,8 +20,6 @@ class Navbar extends Component {
       this.setState({
         hamburgerToggled: true
       })
-
-    console.log(this.state.hamburgerToggled)
   }
 
 
@@ -40,7 +38,10 @@ class Navbar extends Component {
 
         <div className="topNavbarContainer">
           <div className="navbarLogo">SuperMattMatt</div>
-          <img className="hamburgerMenu" src={HamburgerMenuIcon} onClick={this.handleOnClick}/>
+          <img className="hamburgerMenu" 
+               src={HamburgerMenuIcon} 
+               alt="HamburgerMenuIcon"
+               onClick={this.handleOnClick}/>
         </div>
         
         <nav className="navbarContainer">
