@@ -1,7 +1,7 @@
 import React from 'react';
 import './jumbotron.scss';
 
-import Portrait from '../../assets/pictures/cat-sleeping-1920x1080.jpg';
+import Portrait from '../../assets/pictures/profilepic.jpg';
 
 
 const Jumbotron = () => {

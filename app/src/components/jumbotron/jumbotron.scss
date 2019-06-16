@@ -1,46 +1,42 @@
 @import '../../assets/base/variables.scss';
 
 .jumboWrapper {
-  height: auto;
+  height: 450px;
   width: 100%;
   align-items: center;
   background: rgb(188, 225, 230);
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: flex-start;
   margin-top: 100px; 
 
   .portrait {
-    height: auto;
-    width: 45%;
+    height: 250px;
+    width: 170px;
     border: 5px solid #fff;
     margin: 100px 25px 10px 25px;
   }
 
   .nameContainer {
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 
     .nameLabel {
       font: bold italic 45px $Lora;
-      padding: 10px 0 10px 0;
       text-align: center;
     }
     .nameSummary {
       font: bold italic 15px $Lora;
-      padding: 10px 0 10px 0;
       text-align: center;
     }
   }
   
 }
 
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 700px) {
   .jumboWrapper {
     flex-direction: column;
-    .portrait {
-      width: 75%;
-    }
   }
 }

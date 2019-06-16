@@ -1,0 +1,19 @@
+.carouselWrapper {
+  height: auto;
+  width: 100%;
+  align-items: center;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+
+  .carouselContainer {
+    width: 75%;
+    margin: 10px 0 10px 0;
+
+    .carouselItem {
+      width: 85%;
+    }
+
+  }
+  
+}
