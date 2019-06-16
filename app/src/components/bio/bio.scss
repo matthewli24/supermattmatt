@@ -1,0 +1,19 @@
+@import '../../assets/base/variables.scss';
+
+.bioWrapper {
+  width: 100%;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  
+
+  .aboutMeContainer {
+    
+    width: 60%;
+    
+    font: bold italic 20px $Lora;
+    text-align: center;
+  }
+}

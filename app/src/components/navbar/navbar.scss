@@ -1,10 +1,13 @@
+@import '../../assets/base/variables.scss';
+
 .navbarWrapper {
   width: 100%;
   align-items: center;
-  background-color: #00ccff;
+  background-color: $SkyBlue;
   box-shadow: 0 0 3px 0 black;
   display: flex;
   flex-direction: row;
+  font: bold italic 30px $Lora;
   justify-content: space-between;
   overflow: hidden;
   position: fixed;
@@ -39,6 +42,7 @@
 
     .navListItem {
       list-style: none;
+      padding: 0 10px 0 10px;
     }
   }
 
@@ -50,7 +54,7 @@
 }
 
 /****** Media Queries ******/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 950px) {
   .navbarWrapper {
     flex-direction: column;
 
@@ -84,8 +88,5 @@
         padding-bottom: 10px;
       }
     }
-
   }
-
-  
 }

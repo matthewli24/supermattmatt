@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Navbar from './components/navbar/navbar';
 import Jumbotron from './components/jumbotron/jumbotron';
+import Bio from './components/bio/bio';
 import Footer from './components/footer/footer';
 
 import './App.scss';
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
         <Navbar/>
         <Jumbotron/>
+
         <Footer/>
       </div>
     );
