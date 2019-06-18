@@ -4,6 +4,7 @@ import Navbar from './components/navbar/navbar';
 import Jumbotron from './components/jumbotron/jumbotron';
 import Bio from './components/bio/bio';
 import MyCarousel from './components/myCarousel/myCarousel';
+import Chat from './components/chat/chat';
 import Footer from './components/footer/footer';
 
 import './App.scss';
@@ -16,6 +17,7 @@ class App extends Component {
         <Navbar/>
         <Jumbotron/>
         <MyCarousel/>
+        <Chat/>
         <Footer/>
       </div>
     );

@@ -37,7 +37,27 @@ class MyCarousel extends Component {
             <div>
               <img className="carouselItem" src={Page3} alt="3" />
             </div>
-                  
+            <div>
+              <img className="carouselItem" src={Page4} alt="4" />
+            </div>
+            <div>
+              <img className="carouselItem" src={Page5} alt="5" />
+            </div>
+            <div>
+              <img className="carouselItem" src={Page6} alt="6" />
+            </div>
+            <div>
+              <img className="carouselItem" src={Page7} alt="7" />
+            </div>
+            <div>
+              <img className="carouselItem" src={Page8} alt="8" />
+            </div>
+            <div>
+              <img className="carouselItem" src={Page9} alt="9" />
+            </div>
+            <div>
+              <img className="carouselItem" src={Page10} alt="10" />
+            </div>  
           </Carousel>
         </div>
         
