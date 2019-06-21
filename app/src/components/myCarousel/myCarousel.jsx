@@ -3,11 +3,6 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './myCarousel.scss'
 
-
-import sample1 from '../../assets/samples/sample-1.jpeg'
-import sample2 from '../../assets/samples/sample-2.jpeg'
-import sample3 from '../../assets/samples/sample-3.jpeg'
-
 import Page1 from '../../assets/aboutMe/1.png';
 import Page2 from '../../assets/aboutMe/2.png';
 import Page3 from '../../assets/aboutMe/3.png';

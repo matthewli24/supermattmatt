@@ -1,0 +1,75 @@
+@import '../../assets/base/variables.scss';
+
+.chatWrapper {
+  height: 100%;
+  width: 100%;
+  background: lightgreen;  
+  display: flex;
+  flex-direction: column;
+  font: bold italic 25px $Lora;
+  justify-content: flex-start;
+  padding-left: 30px;
+
+
+  .chatLabel {
+    text-align: center;
+  }
+
+  .chatFormContainer {
+    
+    .usernameSection { 
+      padding: 10px 0 20px 0;
+
+      .userNameLabel {
+        font-size: 22px;
+        padding: 10px 10px 10px 0;
+      }
+
+      .userNameInput{
+        width: 10%;
+        font: bold italic 15px $Lora;
+        padding-left: 8px;
+
+        @media screen and (max-width: 700px) {
+          width: 30%;
+        }
+        @media screen and (min-width: 701px) and (max-width: 950px) {
+          width: 17%;
+        }
+        @media screen and (min-width: 951px) and (max-width: 1280px) {
+          width: 15%;
+        }
+      }
+    }
+
+    .commentSection {
+
+      .commentTextArea {
+        height: 90px;
+        width: 35%;
+        font: bold italic 15px $Lora;
+        padding-left: 8px;
+        resize: none;
+
+        
+        @media screen and (max-width: 550px) {
+          width: 90%;
+        }
+        @media screen and (min-width: 551px) and (max-width: 950px) {
+          width: 65%;
+        }
+        @media screen and (min-width: 951px) and (max-width: 1280px) {
+          width: 50%;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+
+

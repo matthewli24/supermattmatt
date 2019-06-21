@@ -33,33 +33,49 @@ class Chat extends Component {
     event.preventDefault();
     console.log("TRYING TO SUBMIT FORM");
   }
-  
+
+  handleClickSubmit = (event) => {
+    console.log(`${this.state.username} said: ${this.state.comment}`);
+  }
+
   render() {
     return (
       <div className="chatWrapper">
-        <p>Username: {this.state.username}</p>
-        <p>Comment: {this.state.comment}</p>
+        {/* <div>Username: {this.state.username}</div>
+        <div>Comment: {this.state.comment}</div> */}
+
+        <label className="chatLabel"> 
+          Please Any Comments, Love, Hate, Trolls, and More Love Are All Welcome!!!
+        </label>
 
         <form className="chatFormContainer" onSubmit={this.handleSubmit}>
 
           <div className="usernameSection">
-            <label>Name:</label>
-            <input type="text" 
-                  id="username" 
-                  name="username" 
-                  placeholder="Anonymous"
-                  onChange={this.handleUserNameChange}
-                  />
+            <label className="userNameLabel">Name:</label>
+            <input className="userNameInput" 
+                   type="text" 
+                   id="username" 
+                   name="username" 
+                   placeholder="Anonymous"
+                   maxLength={17}
+                   onChange={this.handleUserNameChange}
+            />
           </div>
           
           <div className="commentSection">
             <textarea className="commentTextArea"
-                      placeholder="Write Something"
+                      placeholder="Write Something Awesome or Not So Awesome ..."
+                      required
+                      maxLength={250}
                       onChange={this.handleCommentChange}
             />
           </div>
 
-          <input type="button" value="Submit" onClick={this.handleSubmit}/>
+          <input className="chatSubmitButton"
+                 type="button" 
+                 value="Submit" 
+                 onClick={this.handleClickSubmit}
+          />
 
         </form>
       </div>
