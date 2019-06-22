@@ -71,11 +71,15 @@ class Chat extends Component {
             />
           </div>
 
-          <input className="chatSubmitButton"
-                 type="button" 
-                 value="Submit" 
-                 onClick={this.handleClickSubmit}
-          />
+          <div className="formButtonContainer">
+            <input className="chatSubmitButton"
+                  type="button" 
+                  value="Submit" 
+                  onClick={this.handleClickSubmit}
+            />
+
+          </div>
+          
 
         </form>
       </div>

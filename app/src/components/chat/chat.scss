@@ -8,15 +8,14 @@
   flex-direction: column;
   font: bold italic 25px $Lora;
   justify-content: flex-start;
-  padding-left: 30px;
-
 
   .chatLabel {
     text-align: center;
   }
 
   .chatFormContainer {
-    
+    padding-left: 30px;
+
     .usernameSection { 
       padding: 10px 0 20px 0;
 
@@ -28,6 +27,7 @@
       .userNameInput{
         width: 10%;
         font: bold italic 15px $Lora;
+        outline: none;
         padding-left: 8px;
 
         @media screen and (max-width: 700px) {
@@ -48,6 +48,7 @@
         height: 90px;
         width: 35%;
         font: bold italic 15px $Lora;
+        outline: none;
         padding-left: 8px;
         resize: none;
 
@@ -65,6 +66,35 @@
       }
 
     }
+    .formButtonContainer {
+      height: 50px;
+      width: 100%;
+
+      .chatSubmitButton {
+
+        background: #00a8ff; 
+        border: 0 none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 10px; 
+        
+  
+        font: bold italic 18px $Lora;
+        outline: none;
+        padding: 5px 15px;
+        position: relative;
+  
+        &:hover {
+          transform: scale(1.1, 1.1);
+        }
+        &:active {
+          background-color: #00a8ff;
+          
+          transform: scale(1.0, 1.0);
+        }
+      }
+    }
+    
 
   }
 
