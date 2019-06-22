@@ -1,0 +1,20 @@
+import firebase from './config';
+
+class Firebase {
+  constructor() {
+    this.firestore = firebase.firestore();
+  }
+
+  //POST comment entry
+  addComment = (username, comment) => {
+    this.firestore.collection("comments").add({
+      username: username,
+      comment: comment,
+      timestamp: firebase.firestore.Timestamp.now()
+    })
+  };
+
+
+}; 
+
+export default Firebase;

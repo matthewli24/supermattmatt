@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+import Firebase from '../../firebase/firebase';
 
 import './chat.scss';
 
@@ -36,6 +37,9 @@ class Chat extends Component {
 
   handleClickSubmit = (event) => {
     console.log(`${this.state.username} said: ${this.state.comment}`);
+    let db = new Firebase();
+    db.addComment(this.state.username, this.state.comment);
+
   }
 
   render() {
