@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Firebase from './firebase/firebase';
 
 import Navbar from './components/navbar/navbar';
 import Jumbotron from './components/jumbotron/jumbotron';
@@ -10,6 +11,12 @@ import Footer from './components/footer/footer';
 import './App.scss';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      firebase: new Firebase()
+    };
+}
 
   render() {
     return (
@@ -17,7 +24,7 @@ class App extends Component {
         <Navbar/>
         <Jumbotron/>
         <MyCarousel/>
-        <Chat/>
+        <Chat firebase={this.state.firebase}/>
         <Footer/>
       </div>
     );

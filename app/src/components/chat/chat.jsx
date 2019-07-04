@@ -1,5 +1,4 @@
 import React, { Component }  from 'react';
-import Firebase from '../../firebase/firebase';
 
 import './chat.scss';
 
@@ -31,15 +30,22 @@ class Chat extends Component {
   }
 
   handleSubmit = (event) => {
+    let username = this.state.username;
+    if(username === "") username = "Anonymous Kitty";
+    
+    console.log(`${username} said: ${this.state.comment}`);
+    this.props.firebase.addComment(username, this.state.comment)
+    .then(() => {
+      this.setState({
+        username: "",
+        comment: ""
+      })
+    })
+    .catch(error => {
+      console.log("failed", error);
+    })
+
     event.preventDefault();
-    console.log("TRYING TO SUBMIT FORM");
-  }
-
-  handleClickSubmit = (event) => {
-    console.log(`${this.state.username} said: ${this.state.comment}`);
-    let db = new Firebase();
-    db.addComment(this.state.username, this.state.comment);
-
   }
 
   render() {
@@ -61,7 +67,8 @@ class Chat extends Component {
                    id="username" 
                    name="username" 
                    placeholder="Anonymous"
-                   maxLength={17}
+                   value={this.state.username}
+                   maxLength={20}
                    onChange={this.handleUserNameChange}
             />
           </div>
@@ -69,6 +76,7 @@ class Chat extends Component {
           <div className="commentSection">
             <textarea className="commentTextArea"
                       placeholder="Write Something Awesome or Not So Awesome ..."
+                      value={this.state.comment}
                       required
                       maxLength={250}
                       onChange={this.handleCommentChange}
@@ -79,7 +87,7 @@ class Chat extends Component {
             <input className="chatSubmitButton"
                   type="button" 
                   value="Submit" 
-                  onClick={this.handleClickSubmit}
+                  onClick={this.handleSubmit}
             />
 
           </div>

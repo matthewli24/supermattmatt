@@ -7,11 +7,13 @@ class Firebase {
 
   //POST comment entry
   addComment = (username, comment) => {
-    this.firestore.collection("comments").add({
-      username: username,
-      comment: comment,
-      timestamp: firebase.firestore.Timestamp.now()
-    })
+    return (
+      this.firestore.collection("comments").add({
+        username: username,
+        comment: comment,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+      })
+    ) 
   };
 
 
