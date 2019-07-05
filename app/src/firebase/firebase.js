@@ -5,16 +5,23 @@ class Firebase {
     this.firestore = firebase.firestore();
   }
 
-  //POST comment entry
+  //POST A COMMENT ENTRY
   addComment = (username, comment) => {
+    let commentId = this.firestore.collection("comments").doc().id;
     return (
       this.firestore.collection("comments").add({
         username: username,
         comment: comment,
-        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        id: commentId,
+        timestamp: Date.now()
       })
     ) 
   };
+
+  //GET ALL COMMENTS
+  getComments = () => {
+    return this.firestore.collection("comments").orderBy("timestamp", "desc");
+  }
 
 
 }; 

@@ -7,8 +7,9 @@ import Bio from './components/bio/bio';
 import MyCarousel from './components/myCarousel/myCarousel';
 import Chat from './components/chat/chat';
 import Footer from './components/footer/footer';
-
+import Comments from './components/comments/comments';
 import './App.scss';
+
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
         <Jumbotron/>
         <MyCarousel/>
         <Chat firebase={this.state.firebase}/>
+        <Comments firebase={this.state.firebase}/>
         <Footer/>
       </div>
     );
