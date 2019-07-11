@@ -1,0 +1,42 @@
+@import '../../assets/base/variables.scss';
+
+.commentsWrapper {
+  height: 100%;
+  width: 100%;
+  align-items: center; 
+  background: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  font: bold italic 20px $Lora;
+  
+
+  .commentsLabel {
+
+    font: bold italic 30px $Lora;
+    text-align: center;
+
+  }
+  .commentsTable {
+    
+    padding-left: 35px;
+    
+  
+    .commentRow {
+      display: flex;
+      flex-direction: row;
+      
+      align-items: center;
+      padding: 10px 50px 10px 0;
+
+      .commentIcon {
+        
+      }
+
+      .commentsContent {
+        padding-left: 10px;
+      }
+
+    }
+   
+  }
+}

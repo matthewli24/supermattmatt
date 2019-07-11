@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import KittyIcon from '../../assets/icons/cat-profile-100.png';
 import './comments.scss';
 
 
@@ -7,17 +8,18 @@ class Comments extends Component {
     super(props);
     this.state = {
       comments: [],
-      page: 1
+      page: 1,
+      previousDoc: null
     };
   }
 
   componentDidMount() {
     this.props.firebase.getComments()
-    .limit(this.state.page * 5)
     .onSnapshot(snapshot => {
       
       console.log("*************************************")
       snapshot.docChanges().forEach(change => {
+
         if (change.type === "added") {
             console.log("Added: ", change.doc.data());
             let addedTimestamp = change.doc.data().timestamp;
@@ -30,8 +32,7 @@ class Comments extends Component {
               this.setState({
                 comments: [change.doc.data(), ...this.state.comments]
               })
-            }
-            
+            } 
         }
         if (change.type === "modified") {
             console.log("Modified: ", change.doc.data());
@@ -44,30 +45,28 @@ class Comments extends Component {
               comments: newComments
             })
         }
-    });
-
-
+      });
     })
-  }
+  }//componentDidMount
 
   render () {
     const comments = this.state.comments.map(comment =>{
       return (
-        <tr key={comment.id}> 
-          <td>{comment.username}</td>
-          <td>{comment.comment}</td>
-        </tr>
+        <div className="commentRow" key={comment.id}> 
+          <img className="commentIcon" src={KittyIcon} alt="userIcon"/>
+          <div className="commentsContent">{comment.username} said : {comment.comment}</div>
+        </div>
       )
     })
 
     return (
       <div className="commentsWrapper">
-        COMMENT SECTION HERE!!!!!!!!!!!!
-        <table className="commentsTable">
-          <tbody>
-            {comments}
-          </tbody>
-        </table>
+
+        <div className="commentsLabel"> What is Everyone Saying? </div>
+
+        <div className="commentsTable">
+          {comments} 
+        </div>
 
       </div>
     )
