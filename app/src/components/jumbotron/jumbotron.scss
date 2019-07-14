@@ -22,14 +22,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-top: 100px;
+    padding-top: 140px;
 
     .nameLabel {
       font: bold italic 45px $Lora;
       text-align: center;
     }
     .nameSummary {
-      font: bold italic 15px $Lora;
+      font: bold italic 20px $Lora;
       text-align: center;
       padding-top: 5px;
     }

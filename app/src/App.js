@@ -5,12 +5,14 @@ import Navbar from './components/navbar/navbar';
 import Jumbotron from './components/jumbotron/jumbotron';
 import Education from './components/education/education';
 import Experience from './components/experience/experience';
+import Projects from './components/projects/projects';
 import MyCarousel from './components/myCarousel/myCarousel';
 import Chat from './components/chat/chat';
 import Footer from './components/footer/footer';
 import Comments from './components/comments/comments';
 
 import './App.scss';
+
 
 
 
@@ -30,6 +32,7 @@ class App extends Component {
         <Jumbotron/>
         <Education/>
         <Experience/>
+        <Projects/>
         <MyCarousel/>
         <Chat firebase={this.state.firebase}/>
         <Comments firebase={this.state.firebase}/>

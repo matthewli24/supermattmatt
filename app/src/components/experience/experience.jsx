@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="experienceItemContainer">
 
         <div className="expLabel">
-          <div className="expTitle">CUNY Tech Prep</div>
+          <div className="expTitle">CUNY Tech Prep | NYC Tech Talent Pipeline</div>
           <div className="expDate">August 2018 - July 2019</div>
         </div>
         
