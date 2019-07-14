@@ -1,0 +1,51 @@
+@import '../../assets/base/variables.scss';
+
+.educationWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  .eduHeader {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font: bold italic 50px $Lora;
+    border-bottom: 8px solid rgb(188, 225, 230);
+
+  }
+
+  .hunterCollegeLogo {
+    width: 50%;
+    padding: 15px 0 10px 0;;
+  }
+
+  .schoolListContainer {
+    padding-bottom: 25px;
+
+    .schoolListItem {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 15px;
+
+      .schoolListIcon {
+        height: 35px;
+        width: 35px;
+        padding-left: 10px;
+      }
+
+      .schoolList {
+        list-style: none;
+        font: bold italic 30px $Lora;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  
+
+  
+}

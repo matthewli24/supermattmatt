@@ -1,0 +1,41 @@
+@import '../../assets/base/variables.scss';
+
+.experienceWrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .expHeader{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font: bold italic 50px $Lora;
+    border-bottom: 8px solid rgb(188, 225, 230);
+  }
+
+  .experienceItemContainer {
+    width: 80%;
+    .expLabel {
+      
+      .expTitle {
+        font: bold 35px $Lora;
+      }
+      .expDate {
+        font: bold 15px $Lora;
+      }
+    }
+
+
+    .expDescription {
+      font: 25px $Lora;
+      list-style-position: outside;
+      .expDescriptionItem {
+        padding: 5px 0px;
+      }
+    }
+  }
+
+
+}

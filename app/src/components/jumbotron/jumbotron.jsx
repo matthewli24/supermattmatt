@@ -12,6 +12,7 @@ const Jumbotron = () => {
       <div className="nameContainer">
         <div className="nameLabel">Matthew Li</div>
         <div className="nameSummary">I love to build things!</div>
+        <div className="nameSummary">Email: Matthewli2491@gmail.com</div>
         <SocialMediaBar />
       </div>
       
