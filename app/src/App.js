@@ -11,9 +11,10 @@ import MyCarousel from './components/myCarousel/myCarousel';
 import Chat from './components/chat/chat';
 import Footer from './components/footer/footer';
 import Comments from './components/comments/comments';
-
 import './App.scss';
 
+import { configureAnchors } from 'react-scrollable-anchor';
+configureAnchors({offset: -100, scrollDuration: 300})
 
 class App extends Component {
   constructor(props) {

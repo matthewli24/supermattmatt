@@ -1,14 +1,16 @@
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import './skills.scss';
 
 const Skills = () => {
   return (
     <div className="skillsWrapper">
-      <div className="skillsHeader">
-        <div>SKILLS</div>
-      </div>
-
-
+      <ScrollableAnchor id={"skills"}>
+        <div className="skillsHeader">
+          <div>SKILLS</div>
+        </div>
+      </ScrollableAnchor>
+      
       <div className="skillsContainer">
         <ul className="skillsList">
           <label className="skillsLabel">Programming</label>

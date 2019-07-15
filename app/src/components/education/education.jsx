@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import './education.scss';
 
 import HunterCollege from '../../assets/icons/hunter-college-logo.png';
@@ -8,10 +9,12 @@ import ChemistryIcon from '../../assets/icons/chemistry-icon.png';
 const Education = () => {
   return (
     <div className="educationWrapper">
-
-      <div className="eduHeader">
-        <div>EDUCATION</div>
-      </div>
+      <ScrollableAnchor id={"education"}>
+        <div className="eduHeader">
+          <div>EDUCATION</div>
+        </div>
+      </ScrollableAnchor>
+      
 
       <img className="hunterCollegeLogo" src={HunterCollege} alt="hunterCollegeLogo"/>
       

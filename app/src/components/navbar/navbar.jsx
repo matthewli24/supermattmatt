@@ -26,10 +26,10 @@ class Navbar extends Component {
   render() {
     const responsiveNavList = this.state.hamburgerToggled ?
       <nav className="responsiveNavbarContainer">
-        <li className="responsiveNavListItem">Education</li>
-        <li className="responsiveNavListItem">Experience</li>
-        <li className="responsiveNavListItem">Projects</li>
-        <li className="responsiveNavListItem">Skills</li>
+        <a className="responsiveNavListItem" href="#education">Education</a>
+        <a className="responsiveNavListItem" href="#experience">Experience</a>
+        <a className="responsiveNavListItem" href="#projects">Projects</a>
+        <a className="responsiveNavListItem" href="#skills">Skills</a>
       </nav> 
     : null
 
@@ -45,10 +45,10 @@ class Navbar extends Component {
         </div>
         
         <nav className="navbarContainer">
-          <li className="navListItem">Education</li>
-          <li className="navListItem">Experience</li>
-          <li className="navListItem">Projects</li>
-          <li className="navListItem">Skills</li>
+          <a className="navListItem" href="#education">Education</a>
+          <a className="navListItem" href="#experience">Experience</a>
+          <a className="navListItem" href="#projects">Projects</a>
+          <a className="navListItem" href="#skills">Skills</a>
         </nav>
 
         {responsiveNavList}

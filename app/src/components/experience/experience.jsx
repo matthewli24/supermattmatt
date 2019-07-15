@@ -1,13 +1,16 @@
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import './experience.scss';
 
 const Experience = () => {
   return (
     <div className="experienceWrapper">
-      <div className="expHeader">
-        <div>EXPERIENCE</div>
-      </div>
-
+      <ScrollableAnchor id={'experience'}>
+        <div className="expHeader">
+          <div>EXPERIENCE</div>
+        </div>
+      </ScrollableAnchor>
+      
       <div className="experienceItemContainer">
 
         <div className="expLabel">
