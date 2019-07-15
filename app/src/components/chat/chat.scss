@@ -3,17 +3,20 @@
 .chatWrapper {
   height: 100%;
   width: 100%;
-  background: lightgreen;  
   display: flex;
   flex-direction: column;
   font: bold italic 25px $Lora;
   justify-content: flex-start;
+  padding-top: 50px;
 
   .chatLabel {
+    text-decoration: underline;
+    text-decoration-color: $SkyBlue;
     text-align: center;
   }
 
   .chatFormContainer {
+    padding-top: 25px;
     padding-left: 30px;
 
     .usernameSection { 
@@ -72,7 +75,7 @@
 
       .chatSubmitButton {
 
-        background: #00a8ff; 
+        background: $SkyBlue; 
         border: 0 none;
         color: #fff;
         cursor: pointer;

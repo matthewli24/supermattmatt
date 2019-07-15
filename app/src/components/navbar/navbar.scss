@@ -3,8 +3,9 @@
 .navbarWrapper {
   width: 100%;
   align-items: center;
-  background-color: $LightBlue;
+  background-color: $SkyBlue;
   box-shadow: 0 0 5px 0 black;
+  color: white;
   display: flex;
   flex-direction: row;
   font: bold italic 30px $Lora;
@@ -52,7 +53,7 @@
         display: block;
         width: 0;
         height: 3px;
-        background: #000;
+        background: #FFF;
         transition: width 350ms;
       }
       &:hover:after {
@@ -109,7 +110,7 @@
           display: block;
           width: 0;
           height: 3px;
-          background: #000;
+          background: #FFF;
           transition: width 250ms;
         }
         &:hover:after {

@@ -9,13 +9,16 @@ import LinkedInIcon from '../../assets/icons/linkedin.svg'
 import GitHubIcon from '../../assets/icons/github.svg'
 
 const SocialMediaBar = () => {
+
   return (
     <div className="socialMediaBarWrapper">
-        <img className="socialMediaIcon" src={LinkedInIcon} alt="linkedIn"/>
-        <img className="socialMediaIcon" src={FacebookIcon} alt="facebook"/>
-        <img className="socialMediaIcon" src={InstagramIcon} alt="instagram"/>
-        <img className="socialMediaIcon" src={TwitterIcon} alt="twitter"/>
-        <img className="socialMediaIcon" src={GitHubIcon} alt="github"/>
+      <a href="https://www.linkedin.com/in/matthewli24/"><img className="socialMediaIcon" src={LinkedInIcon} alt="linkedIn"/></a>
+      <a href="https://www.facebook.com/mattmatt2491"><img className="socialMediaIcon" src={FacebookIcon} alt="facebook"/></a> 
+      <a href="https://www.instagram.com/supermattmatt/"><img className="socialMediaIcon" src={InstagramIcon} alt="instagram"/></a>
+      <a href="https://twitter.com/supermattmatt24"><img className="socialMediaIcon" src={TwitterIcon} alt="twitter"/></a>
+      <a href="https://github.com/matthewli24"><img className="socialMediaIcon" src={GitHubIcon} alt="github"/></a>
+      
+     
     </div>
 
   );

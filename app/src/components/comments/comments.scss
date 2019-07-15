@@ -4,20 +4,18 @@
   height: 100%;
   width: 100%;
   align-items: center; 
-  background: lightseagreen;
   display: flex;
   flex-direction: column;
   font: bold italic 20px $Lora;
-  
+  padding-bottom: 30px;
 
   .commentsLabel {
-
+    border-bottom: 4px solid $SkyBlue;
     font: bold italic 30px $Lora;
     text-align: center;
-
   }
   .commentsTable {
-    
+    padding-top: 20px;
     padding-left: 35px;
     
   

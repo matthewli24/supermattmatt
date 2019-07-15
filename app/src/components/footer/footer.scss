@@ -1,0 +1,19 @@
+@import '../../assets/base/variables.scss';
+
+.footerWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font: bold italic 25px $Lora;
+  padding-top: 30px;
+  border-top: 5px solid $SkyBlue;
+
+  .footerEmailLabel {
+    padding: 5px;
+  }
+
+  .footerFollowLabel {
+    padding-top: 30px;
+  }
+}
