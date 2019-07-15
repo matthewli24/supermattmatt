@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: flex-start;
     font: bold italic 50px $Lora;
-    border-bottom: 8px solid rgb(188, 225, 230);
+    border-bottom: 8px solid $LightBlue;
   }
 
   .projectsContainer {
@@ -36,7 +36,7 @@
     }
 
     .projectDescription {
-      font: 25px $Lora;
+      font: 20px $Lora;
       list-style-position: outside;
 
       .projectDescriptionItem {

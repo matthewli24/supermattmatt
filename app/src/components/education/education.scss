@@ -13,13 +13,17 @@
     flex-direction: row;
     justify-content: flex-start;
     font: bold italic 50px $Lora;
-    border-bottom: 8px solid rgb(188, 225, 230);
+    border-bottom: 8px solid $LightBlue;
 
   }
 
   .hunterCollegeLogo {
-    width: 50%;
-    padding: 40px 0 10px 0;;
+    width: 35%;
+    padding: 40px 0 10px 0;
+
+    @media screen and (max-width: 700px) {
+      width: 55%;
+    }
   }
 
   .schoolListContainer {
