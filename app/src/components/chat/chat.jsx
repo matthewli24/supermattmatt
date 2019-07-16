@@ -55,7 +55,7 @@ class Chat extends Component {
         <div>Comment: {this.state.comment}</div> */}
 
         <label className="chatLabel"> 
-          Please Any Comments, Love, Hate, Trolls, and More Love Are All Welcome!!!
+          Please Write Any Comments, Love, Hate, Trolls, and More Love Are All Welcome!!!
         </label>
 
         <form className="chatFormContainer" onSubmit={this.handleSubmit}>
