@@ -1,5 +1,10 @@
 # :sparkling_heart: :sparkling_heart: :sparkling_heart: SuperMattMatt :sparkling_heart: :sparkling_heart: :sparkling_heart:     
 
+## Live Demo
+```
+https://supermattmattsworld.web.app/
+```
+
 ## Dependencies
 * React   
 * Firebase      
@@ -20,10 +25,4 @@ $npm run build
 $firebase init (when prompt about 'public', name it 'build)
 $firebase deploy
 ```
-
-## Live Demo
-```
-https://supermattmattsworld.web.app/
-```
-
 
