@@ -26,7 +26,7 @@ const Education = () => {
         
         <div className="schoolListItem">
           <img className="schoolListIcon" src={ChemistryIcon} alt="chemistryIcon"/>
-          <li className="schoolList">Bachelors of Arts in Computer Science: Fall 2013</li>
+          <li className="schoolList">Bachelors of Arts in BioChemistry: Fall 2013</li>
         </div>
         
       </div>
