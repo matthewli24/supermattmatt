@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './navbar.scss';
-import HamburgerMenuIcon from '../../assets/icons/hamburgerMenuIcon.svg'
+import HamburgerMenuIcon from '../../assets/icons/hamburgerMenuIcon.svg';
+import Logo from '../../assets/icons/whiteLogo.svg';
 
 
 class Navbar extends Component { 
@@ -37,7 +38,9 @@ class Navbar extends Component {
       <div className="navbarWrapper">
 
         <div className="topNavbarContainer">
-          <div className="navbarLogo">SuperMattMatt</div>
+          <div className="navbarLogo">
+            <img className="logo" src={Logo} alt="logo"/>
+          </div>
           <img className="hamburgerMenu" 
                src={HamburgerMenuIcon} 
                alt="HamburgerMenuIcon"

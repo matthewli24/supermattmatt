@@ -3,7 +3,7 @@
 .navbarWrapper {
   width: 100%;
   align-items: center;
-  background-color: $SkyBlue;
+  background-color: $BabyBlue;
   box-shadow: 0 0 5px 0 black;
   color: white;
   display: flex;
@@ -26,6 +26,11 @@
       align-self: center;
       display: flex;
       padding-left: 25px;
+
+      .logo {
+        height: 70px;
+        width: 75px;
+      }
     }
     .hamburgerMenu {
       width: 35px;

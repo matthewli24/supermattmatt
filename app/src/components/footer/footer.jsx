@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss'
-import SocialMediaBar from './socialMediaBar'
+import SocialMediaBar from '../socialMediaBar/socialMediaBar'
 
 const Footer = () => {
   return (
