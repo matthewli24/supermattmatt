@@ -13,7 +13,7 @@ const Jumbotron = () => {
         <div className="nameLabel">Matthew Li</div>
         <div className="nameSummary">I love to build things!</div>
         <div className="nameSummary">Email: Matthewli2491@gmail.com</div>
-        <a className="resumeLink" href="https://firebasestorage.googleapis.com/v0/b/supermattmattsworld.appspot.com/o/MatthewLiResume.pdf?alt=media&token=c0c07ce7-ec55-4953-818f-f8ca36778ae3">
+        <a className="resumeLink" href="https://firebasestorage.googleapis.com/v0/b/supermattmattsworld.appspot.com/o/MatthewLiResume.pdf?alt=media&token=e5f99ad7-7447-42ad-b9f8-95f9d7954303">
           <div className="resumeBtn">Download My Résumé</div>
         </a>
         <SocialMediaBar />
