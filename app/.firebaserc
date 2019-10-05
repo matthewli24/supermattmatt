@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "supermattmattsworld"
+  },
+  "targets": {
+    "supermattmattsworld": {
+      "hosting": {
+        "main": [
+          "matthewli"
+        ]
+      }
+    }
   }
 }

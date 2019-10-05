@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  font: bold italic 25px $Lora;
+  font: bold 25px $Lora;
   justify-content: flex-start;
   padding-top: 50px;
 
@@ -50,7 +50,7 @@
       .commentTextArea {
         height: 90px;
         width: 35%;
-        font: bold italic 15px $Lora;
+        font: bold 15px $Lora;
         outline: none;
         padding-left: 8px;
         resize: none;

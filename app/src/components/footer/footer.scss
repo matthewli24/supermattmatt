@@ -2,12 +2,11 @@
 
 .footerWrapper {
   width: 100%;
-  background-color: $SkyBlue;
-  color: white;
+  color: darkgray;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font: bold italic 25px $Lora;
+  font: bold 25px $Lora;
   padding-top: 30px;
   border-top: 5px solid $SkyBlue;
 
