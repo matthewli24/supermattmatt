@@ -30,6 +30,10 @@
       .logo {
         height: 70px;
         width: 75px;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
     .hamburgerMenu {

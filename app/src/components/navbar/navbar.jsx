@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './navbar.scss';
 import HamburgerMenuIcon from '../../assets/icons/hamburgerMenuIcon.svg';
 import Logo from '../../assets/icons/whiteLogo.svg';
+import { goToTop } from 'react-scrollable-anchor'
+
 
 
 class Navbar extends Component { 
@@ -23,6 +25,10 @@ class Navbar extends Component {
       })
   }
 
+  handleLogoClick = () => {
+    goToTop();
+  }
+
 
   render() {
     const responsiveNavList = this.state.hamburgerToggled ?
@@ -38,7 +44,7 @@ class Navbar extends Component {
       <div className="navbarWrapper">
 
         <div className="topNavbarContainer">
-          <div className="navbarLogo">
+          <div className="navbarLogo" onClick={this.handleLogoClick}>
             <img className="logo" src={Logo} alt="logo"/>
           </div>
           <img className="hamburgerMenu" 
