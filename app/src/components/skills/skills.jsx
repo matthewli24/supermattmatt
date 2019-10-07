@@ -5,7 +5,7 @@ import './skills.scss';
 const Skills = () => {
   return (
     <div className="skillsWrapper">
-      <ScrollableAnchor id={"skills"}>
+      <ScrollableAnchor id={'skills'}>
         <div className="skillsHeader">
           <div>SKILLS</div>
         </div>

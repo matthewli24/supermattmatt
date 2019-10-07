@@ -17,11 +17,11 @@ class Comments extends Component {
     this.props.firebase.getComments()
     .onSnapshot(snapshot => {
       
-      console.log("*************************************")
+      //console.log("*************************************")
       snapshot.docChanges().forEach(change => {
 
         if (change.type === "added") {
-            console.log("Added: ", change.doc.data());
+            //console.log("Added: ", change.doc.data());
             let addedTimestamp = change.doc.data().timestamp;
             if(this.state.comments.length === 0 || addedTimestamp < this.state.comments[0].timestamp ) {
               this.setState({
@@ -35,7 +35,7 @@ class Comments extends Component {
             } 
         }
         if (change.type === "modified") {
-            console.log("Modified: ", change.doc.data());
+            //console.log("Modified: ", change.doc.data());
         }
         if (change.type === "removed") {
             console.log("Removed: ", change.doc.data());

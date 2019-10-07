@@ -1,0 +1,24 @@
+@import '../../assets/base/variables.scss';
+
+.moodifyWrapper {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+
+  .moodifyTitle {
+    font: bold 50px $Lora;
+  }
+
+  .moodifyDescription {
+    width: 60%;
+    font: 20px $Lora;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .moodifyDemo {
+    width: 70%;
+  }
+}
