@@ -16,5 +16,31 @@
     border-bottom: 8px solid $SkyBlue;
   }
 
+  .projectList {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .projectLogo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .MoodifyLogo {
+        width: 60%;
+      }
+  
+      .BakersBookLogo {
+        width: 80%;
+      }
+      .InStyleLogo {
+        width: 50%;
+      }
+    }
+    
+  }
+
 
 }
