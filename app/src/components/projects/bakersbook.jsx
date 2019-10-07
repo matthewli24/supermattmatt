@@ -3,12 +3,13 @@ import './bakersbook.scss';
 
 import BakersBookDemo from '../../assets/bakersbook/bakersbookdemo.gif';
 import BakersBookLanding from '../../assets/bakersbook/bakersbook-landing.svg'
+import BakersBookLogo from '../../assets/bakersbook/bakersbook-logo.svg';
 
 const BakersBook = () => {
   return(
     <div className="bakersBookWrapper">
 
-      <div className="bakersBookTitle">Baker's Book</div>
+      <img className="bakersBookLogo" src={BakersBookLogo}/>
 
       <div className="bakersBookDescription">
         <p>

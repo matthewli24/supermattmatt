@@ -1,13 +1,14 @@
 import React from 'react';
 import './moodify.scss';
 
+import MoodifyLogo from '../../assets/moodify/Moodify-logo.svg';
 import MoodifyDemo from '../../assets/moodify/moodifyDemo.gif';
 
 const Moodify = () => {
   return(
     <div className="moodifyWrapper">
 
-      <div className="moodifyTitle">Moodify</div>
+      <img className="moodifyLogo" src={MoodifyLogo}/>
 
       <div className="moodifyDescription">
         <p>Do you have trouble selecting a song to listen to sometimes?</p>

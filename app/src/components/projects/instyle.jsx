@@ -3,12 +3,13 @@ import './instyle.scss';
 
 import InStyleLanding from '../../assets/instyle/instyle-landing.svg';
 import InStyleDemo from '../../assets/instyle/instyleDemo1.gif';
+import InStyleLogo from '../../assets/instyle/instyle-logo.svg';
 
 const Instyle = () => {
   return(
     <div className="instyleWrapper">
 
-      <div className="instyleTitle">In Style</div>
+      <img className="InStyleLogo" src={InStyleLogo}/>
 
       <div className="instyleDescription">
         <p>
