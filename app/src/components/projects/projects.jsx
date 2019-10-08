@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import GitHubIcon from '../../assets/icons/github.svg'
 import './projects.scss';
 
 import Moodify from './moodify'
@@ -19,6 +20,13 @@ const Projects = () => {
       <Moodify/>
       <BakersBook/>
       <InStyle/>
+
+      <div className="moreProjectsContainer">
+          <a className="githublink" href="https://github.com/matthewli24">
+            More Projects On My GitHub ...
+            <img className="githubicon" src={GitHubIcon} alt="github"/>
+          </a>
+      </div>
 
     </div>
   );
