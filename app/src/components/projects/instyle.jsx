@@ -9,7 +9,7 @@ const Instyle = () => {
   return(
     <div className="instyleWrapper">
 
-      <img className="InStyleLogo" src={InStyleLogo}/>
+      <img className="InStyleLogo" src={InStyleLogo} alt="InStyleLogo"/>
 
       <div className="instyleDescription">
         <p>

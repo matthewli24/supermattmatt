@@ -18,6 +18,7 @@ const Skills = () => {
           <li className="skillItem">C++</li>
           <li className="skillItem">Python</li>
           <li className="skillItem">HTML & CSS</li>
+          <li className="skillItem">Flexbox</li>
           <li className="skillItem">Swift</li>
           <li className="skillItem">Typescript</li>
         </ul>

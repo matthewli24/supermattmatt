@@ -9,7 +9,7 @@ const BakersBook = () => {
   return(
     <div className="bakersBookWrapper">
 
-      <img className="bakersBookLogo" src={BakersBookLogo}/>
+      <img className="bakersBookLogo" src={BakersBookLogo} alt="BakersBookLogo"/>
 
       <div className="bakersBookDescription">
         <p>

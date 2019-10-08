@@ -33,10 +33,11 @@ class Navbar extends Component {
   render() {
     const responsiveNavList = this.state.hamburgerToggled ?
       <nav className="responsiveNavbarContainer">
-        <a className="responsiveNavListItem" href="#education">Education</a>
+        <a className="responsiveNavListItem" href="#about">About</a>
         <a className="responsiveNavListItem" href="#experience">Experience</a>
         <a className="responsiveNavListItem" href="#projects">Projects</a>
-        <a className="responsiveNavListItem" href="#skills">Skills</a>
+        <a className="responsiveNavListItem" href="#education">Education</a>
+        <a className="responsiveNavListItem" href="#skills">Skills</a>  
       </nav> 
     : null
 
@@ -53,12 +54,14 @@ class Navbar extends Component {
                onClick={this.handleOnClick}/>
         </div>
         
-        <nav className="navbarContainer">
-          <a className="navListItem" href="#education">Education</a>
+        <div className="navbarContainer">
+          <a className="navListItem" href="#about">About</a>
           <a className="navListItem" href="#experience">Experience</a>
           <a className="navListItem" href="#projects">Projects</a>
+          <a className="navListItem" href="#education">Education</a>
           <a className="navListItem" href="#skills">Skills</a>
-        </nav>
+          
+        </div>
 
         {responsiveNavList}
       </div>

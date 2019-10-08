@@ -1,0 +1,24 @@
+@import '../../assets/base/variables.scss';
+
+.aboutWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+
+  .aboutHeader {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font: bold 50px $Lora;
+    border-bottom: 8px solid $SkyBlue;
+  }
+
+  .aboutDescription {
+    width: 70%;
+    font: 30px $Lora;
+    text-align: center;
+  }
+}

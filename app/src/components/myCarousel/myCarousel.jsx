@@ -19,10 +19,11 @@ class MyCarousel extends Component {
   render() {
     return (
       <div className="carouselWrapper">
-
+        
         <div className="carouselContainer">
           <Carousel showThumbs={false}
-                    emulateTouch={true}>
+                    emulateTouch={true}
+                    showStatus={false}>
             <div>
               <img className="carouselItem" src={Page1} alt="1" />
             </div>

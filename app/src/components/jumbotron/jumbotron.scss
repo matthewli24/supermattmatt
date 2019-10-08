@@ -44,7 +44,7 @@
       padding-top: 8px;
 
       .resumeBtn {
-        width: 200px;
+        width: 220px;
         background: #f44336; 
         border: 0 none;
         color: #fff;
@@ -53,9 +53,10 @@
         font: bold italic 18px $Lora;
         outline: none;
         padding: 5px 15px;
+        text-align: center;
 
         &:hover {
-          color: black;
+          color: #36E7F4;
         }
       }
     }

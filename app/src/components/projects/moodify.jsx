@@ -8,7 +8,7 @@ const Moodify = () => {
   return(
     <div className="moodifyWrapper">
 
-      <img className="moodifyLogo" src={MoodifyLogo}/>
+      <img className="moodifyLogo" src={MoodifyLogo} alt="MoodifyLogo"/>
 
       <div className="moodifyDescription">
         <p>Do you have trouble selecting a song to listen to sometimes?</p>
