@@ -91,8 +91,10 @@
       .hamburgerMenu{
         display: inline-block;
         margin-right: 40px;
+        transition: 1.5s;
         &:hover {
           cursor: pointer;
+          transform: rotate(360deg);
         }
       }
     }
@@ -107,7 +109,7 @@
       height: 100%;
       width: 100%;
       align-items: center;
-      background: $SkyBlue;
+      background: $BabyBlue;
       display: flex;
       flex-direction: column;
 
