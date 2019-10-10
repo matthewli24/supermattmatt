@@ -61,12 +61,12 @@ class EmailForm extends Component {
       }
       axios.post(' https://api.emailjs.com/api/v1.0/email/send', data)
       .then(res => {
-        console.log(res)
+        console.log(res);
         this.setState({
           email: "",
           name: "",
           message: ""
-        })
+        });
       })
       .catch(error => {
         console.log(error)
