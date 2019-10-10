@@ -103,7 +103,7 @@ class EmailForm extends Component {
                   type="text" 
                   required 
                   placeholder="Name"
-                  value={this.state.Name}
+                  value={this.state.name}
                   onChange={this.handleNameChange}/>
           </div>
 
