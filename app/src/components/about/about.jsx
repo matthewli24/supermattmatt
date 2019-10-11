@@ -14,7 +14,8 @@ const About = () => {
       </ScrollableAnchor>
 
       <p className="aboutDescription">
-        I love to build and break things.
+        Hello, I am a software developer who is 
+        passionate in building applications that may someday change other's lives for the better. 
       </p>
 
       <p className="aboutDescription">
