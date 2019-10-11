@@ -20,14 +20,13 @@ const Instyle = () => {
         <img className="inStyleLanding" src={InStyleLanding} alt="landing"/>
 
         <p> 
-          It is a platform connecting both seller and buyers and they are mutually 
-          benefit from using it. The users can be able to browse different items 
-          based on filters and purchase the items using a first come first serve policy, 
-          and also acts as a freelance retail consultant to sell items. 
+          It is a platform connecting both seller and buyers. 
+          The users are able to browse different items based on interests,
+          and purchase the items using a first come first serve policy. 
+          Users can act as a freelance retail consultant to sell items. 
           The mission is simple: to make selling easier than buying. 
-          Shopping agents can be everyone and making some money through 
-          a simple trip to the shops or your closets and post deals on the InStyle, 
-          buyers can find the best deals they can find anywhere.
+          Shopping agents can be anyone. Anyone can sell and make some money through 
+          a simple trip to a shopping mall or their own closet and post deals on the InStyle. 
         </p>
       </div>
 
