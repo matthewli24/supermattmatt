@@ -2,7 +2,7 @@ import React from 'react';
 import './instyle.scss';
 
 import InStyleLanding from '../../assets/instyle/instyle-landing.svg';
-import InStyleDemo from '../../assets/instyle/instyleDemo1.gif';
+import InStyleDemo from '../../assets/instyle/instyleDemo.gif';
 import InStyleLogo from '../../assets/instyle/instyle-logo.svg';
 
 const Instyle = () => {
