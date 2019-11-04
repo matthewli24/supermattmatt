@@ -1,65 +1,105 @@
 @import '../../assets/base/variables.scss';
 
 .jumboWrapper {
-  
+  height: 100vh;
   width: 100%;
   align-items: center;
-  background: url('../../assets/pictures/light-blue-gradient.svg') no-repeat center;
+  background: url('../../assets/landingAssets/landing_background2.svg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: black;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 100px; 
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
 
-  .portrait {
-    height: 250px;
-    width: 170px;
-    border: 5px solid #fff;
-    margin: 100px 25px 10px 25px;
+  .logo {
+    width: 120px;
+    position: relative;
+    top: 100px;
+    //animation: spin 5s both infinite linear;
+
+    @keyframes spin {
+      0% { transform: rotate(0deg);}
+      100% { transform: rotate(360deg);}
+    }
   }
 
   .nameContainer {
-    height: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-top: 140px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
 
-    .nameLabel {
-      font: bold 45px $Lora;
-      text-align: center;
+    .name {
+      width: 30%;
+
+      @media screen and (max-width: 990px) {
+        width: 50%
+      }
+      @media screen and (max-width: 400px) {
+        width: 60%
+      }
+      @media screen and (max-width: 400px) {
+        width: 70%
+      }
     }
-    .nameSummary {
-      font: bold 20px $Lora;
-      text-align: center;
-      padding-top: 5px;
+
+    .label {
+      width: 25%;
+      margin-top: 40px;
+
+      @media screen and (max-width: 1200px) {
+        width: 35%
+      }
+      @media screen and (max-width: 600px) {
+        width: 45%
+      }
+      @media screen and (max-width: 490px) {
+        width: 55%
+      }
     }
+  }
+
+  .contactsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    margin-top: 20px;
+
     .resumeLink {
-      width: 100%;
-      display: flex;
-      justify-content: center;
       color: inherit;
       text-decoration: none;
-      font: bold 20px $Lora;
-      padding-top: 8px;
-
+    
       .resumeBtn {
         width: 220px;
-        background: #f44336; 
+        background: #ff1100; 
         border: 0 none;
         color: #fff;
         cursor: pointer;
         border-radius: 10px; 
-        font: bold italic 18px $Lora;
+        font: bold italic 18px $Nunito;
+        font-weight: 600;
         outline: none;
         padding: 5px 15px;
         text-align: center;
-
+  
         &:hover {
-          color: #36E7F4;
+          background: #ff6459;
         }
       }
     }
+  }
+
+  .downArrow {
+    width: 50px;
+    padding-bottom: 15px;
   }
   
 }
@@ -67,9 +107,20 @@
 @media screen and (max-width: 700px) {
   .jumboWrapper {
     flex-direction: column;
-
-    .nameContainer {
-      padding-top: 10px;
-    }
+    background: url('../../assets/landingAssets/landing_background.svg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
+
+
+
+
+  // .portrait {
+  //   height: 250px;
+  //   width: 170px;
+  //   border: 5px solid #fff;
+  //   margin: 100px 25px 10px 25px;
+  // }

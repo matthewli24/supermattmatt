@@ -12,7 +12,7 @@ import Footer from './components/footer/footer';
 import './App.scss';
 
 import { configureAnchors } from 'react-scrollable-anchor';
-configureAnchors({offset: -100, scrollDuration: 300})
+configureAnchors({offset: -120, scrollDuration: 300})
 
 class App extends Component {
   constructor(props) {

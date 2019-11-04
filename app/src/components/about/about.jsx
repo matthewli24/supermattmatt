@@ -23,7 +23,7 @@ const About = () => {
         I like to watch anime, workout, play basketball, cook, play video games and poker.
       </p>
 
-      <MyCarousel/>
+      {/* <MyCarousel/> */}
 
     </div>
 

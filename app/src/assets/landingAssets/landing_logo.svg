@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="212px" viewBox="0 0 212 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>1 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M825.760827,189.333347 C808.081317,217.375577 776.871801,236 741.320846,236 C705.769887,236 674.560368,217.375573 656.880859,189.333339 L686.76135,189.333333 L728.013652,189.333333 L699.735864,132.666667 L674.784875,182.666667 L653.028228,182.666667 C648.832952,174.714526 645.676439,166.127298 643.739726,157.086369 L710.760401,40.7751417 C720.391761,37.6744434 730.661143,36 741.320846,36 C754.340246,36 766.777392,38.4978263 778.180981,43.0412908 L840.086758,150.475861 C838.425814,161.953005 834.819409,172.798806 829.613458,182.666669 L807.856817,182.666667 L782.905828,132.666667 L754.62804,189.333333 L825.760836,189.333333 L825.760827,189.333347 Z M840.959158,139.196347 L788.031963,47.8721461 C819.572715,64.8517408 841,98.0877548 841,136.30936 C841,137.274931 840.986325,138.237321 840.959158,139.196347 Z M641.558128,146.502283 C641.189189,142.999608 641,139.44308 641,135.842176 C641,94.9545375 665.392478,59.7883444 700.360731,44.2191781 L641.558128,146.502283 L641.558128,146.502283 Z M741,145.589041 L772.506849,82.5753425 L709.493151,82.5753425 L741,145.589041 Z" id="path-1"></path>
+        <filter x="-5.8%" y="-3.2%" width="111.5%" height="111.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logo-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Playground2" transform="translate(-635.000000, -35.000000)">
+            <g id="1-copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
