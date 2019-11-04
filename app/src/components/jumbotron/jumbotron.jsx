@@ -5,8 +5,8 @@ import './jumbotron.scss';
 import Portrait from '../../assets/pictures/profilepic.jpg';
 import SocialMediaBar from '../socialMediaBar/socialMediaBar';
 import Logo from '../../assets/landingAssets/landing_logo.svg'
-import NameLabel from '../../assets/landingAssets/landing_name.svg'
-import TitleLabel from '../../assets/landingAssets/landing_label.svg'
+import NameLabel from '../../assets/landingAssets/landing_name2.png'
+import TitleLabel from '../../assets/landingAssets/landing_label2.png'
 import DownArrow from '../../assets/icons/downArrow.svg'
 
 
