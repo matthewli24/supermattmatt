@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="212px" height="212px" viewBox="0 0 212 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>1 copy</title>
-    <desc>Created with Sketch.</desc>
+
+<svg width="215px" height="214px" viewBox="0 0 215 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-        <path d="M825.760827,189.333347 C808.081317,217.375577 776.871801,236 741.320846,236 C705.769887,236 674.560368,217.375573 656.880859,189.333339 L686.76135,189.333333 L728.013652,189.333333 L699.735864,132.666667 L674.784875,182.666667 L653.028228,182.666667 C648.832952,174.714526 645.676439,166.127298 643.739726,157.086369 L710.760401,40.7751417 C720.391761,37.6744434 730.661143,36 741.320846,36 C754.340246,36 766.777392,38.4978263 778.180981,43.0412908 L840.086758,150.475861 C838.425814,161.953005 834.819409,172.798806 829.613458,182.666669 L807.856817,182.666667 L782.905828,132.666667 L754.62804,189.333333 L825.760836,189.333333 L825.760827,189.333347 Z M840.959158,139.196347 L788.031963,47.8721461 C819.572715,64.8517408 841,98.0877548 841,136.30936 C841,137.274931 840.986325,138.237321 840.959158,139.196347 Z M641.558128,146.502283 C641.189189,142.999608 641,139.44308 641,135.842176 C641,94.9545375 665.392478,59.7883444 700.360731,44.2191781 L641.558128,146.502283 L641.558128,146.502283 Z M741,145.589041 L772.506849,82.5753425 L709.493151,82.5753425 L741,145.589041 Z" id="path-1"></path>
-        <filter x="-5.8%" y="-3.2%" width="111.5%" height="111.5%" filterUnits="objectBoundingBox" id="filter-2">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+        <linearGradient x1="50%" y1="2.09941312%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD5D5" offset="0%"></stop>
+            <stop stop-color="#FF1100" offset="100%"></stop>
+        </linearGradient>
+        <path d="M783.760827,230.333347 C766.081317,258.375577 734.871801,277 699.320846,277 C663.769887,277 632.560368,258.375573 614.880859,230.333339 L644.76135,230.333333 L686.013652,230.333333 L657.735864,173.666667 L632.784875,223.666667 L611.028228,223.666667 C606.832952,215.714526 603.676439,207.127298 601.739726,198.086369 L668.760401,81.7751417 C678.391761,78.6744434 688.661143,77 699.320846,77 C712.340246,77 724.777392,79.4978263 736.180981,84.0412908 L798.086758,191.475861 C796.425814,202.953005 792.819409,213.798806 787.613458,223.666669 L765.856817,223.666667 L740.905828,173.666667 L712.62804,230.333333 L783.760836,230.333333 L783.760827,230.333347 Z M798.959158,180.196347 L746.031963,88.8721461 C777.572715,105.851741 799,139.087755 799,177.30936 C799,178.274931 798.986325,179.237321 798.959158,180.196347 Z M599.558128,187.502283 C599.189189,183.999608 599,180.44308 599,176.842176 C599,135.954537 623.392478,100.788344 658.360731,85.2191781 L599.558128,187.502283 L599.558128,187.502283 Z M699,186.589041 L730.506849,123.575342 L667.493151,123.575342 L699,186.589041 Z" id="path-2"></path>
+        <filter x="-6.5%" y="-4.0%" width="113.0%" height="113.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="logo-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Playground2" transform="translate(-635.000000, -35.000000)">
+        <g id="Playground2" transform="translate(-592.000000, -75.000000)">
             <g id="1-copy">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" stroke-width="3" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
             </g>
         </g>
     </g>
