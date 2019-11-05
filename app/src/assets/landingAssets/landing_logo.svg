@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<svg width="212px" height="212px" viewBox="0 0 212 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <path d="M817.760827,220.333347 C800.081317,248.375577 768.871801,267 733.320846,267 C697.769887,267 666.560368,248.375573 648.880859,220.333339 L678.76135,220.333333 L720.013652,220.333333 L691.735864,163.666667 L666.784875,213.666667 L645.028228,213.666667 C640.832952,205.714526 637.676439,197.127298 635.739726,188.086369 L702.760401,71.7751417 C712.391761,68.6744434 722.661143,67 733.320846,67 C746.340246,67 758.777392,69.4978263 770.180981,74.0412908 L832.086758,181.475861 C830.425814,192.953005 826.819409,203.798806 821.613458,213.666669 L799.856817,213.666667 L774.905828,163.666667 L746.62804,220.333333 L817.760836,220.333333 L817.760827,220.333347 Z M832.959158,170.196347 L780.031963,78.8721461 C811.572715,95.8517408 833,129.087755 833,167.30936 C833,168.274931 832.986325,169.237321 832.959158,170.196347 Z M633.558128,177.502283 C633.189189,173.999608 633,170.44308 633,166.842176 C633,125.954537 657.392478,90.7883444 692.360731,75.2191781 L633.558128,177.502283 L633.558128,177.502283 Z M733,176.589041 L764.506849,113.575342 L701.493151,113.575342 L733,176.589041 Z" id="path-1"></path>
-        <filter x="-5.8%" y="-3.2%" width="111.5%" height="111.5%" filterUnits="objectBoundingBox" id="filter-2">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
+<svg width="164px" height="164px" viewBox="0 0 164 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="logo-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Playground2" transform="translate(-627.000000, -66.000000)">
-            <g id="1-copy">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Playground2" transform="translate(-638.000000, -116.000000)">
+            <g id="LOGO" transform="translate(639.000000, 117.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="81" cy="81" r="81"></circle>
+                <circle id="Oval-Copy" stroke="#FFFFFF" stroke-width="2" cx="81" cy="81" r="76"></circle>
+                <g id="Group" transform="translate(33.000000, 40.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <polygon id="M" points="93.4236311 82 93.4236311 2.89548023 92.9552004 2.89548023 56.3004978 82 54.1925596 82 17.6549646 2.89548023 17.3036416 2.89548023 17.3036416 82 14.7272727 82 14.7272727 0 19.2944721 0 55.3636364 78.2937853 91.4328006 0 96 0 96 82"></polygon>
+                    <polygon id="M-Copy-3" points="78.6963584 82 78.6963584 2.89548023 78.2279277 2.89548023 41.573225 82 39.4652869 82 2.9276919 2.89548023 2.57636888 2.89548023 2.57636888 82 0 82 0 0 4.56719937 0 40.6363636 78.2937853 76.7055279 0 81.2727273 0 81.2727273 82"></polygon>
+                </g>
             </g>
         </g>
     </g>

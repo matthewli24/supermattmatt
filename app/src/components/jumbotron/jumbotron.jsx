@@ -5,8 +5,6 @@ import './jumbotron.scss';
 import Portrait from '../../assets/pictures/profilepic.jpg';
 import SocialMediaBar from '../socialMediaBar/socialMediaBar';
 import Logo from '../../assets/landingAssets/landing_logo.svg'
-import NameLabel from '../../assets/landingAssets/landing_name2.png'
-import TitleLabel from '../../assets/landingAssets/landing_label2.png'
 import DownArrow from '../../assets/icons/downArrow.svg'
 
 
@@ -17,14 +15,9 @@ const Jumbotron = () => {
       <img className="logo" src={Logo} alt="logo"/>
 
       <div className="nameContainer">
-        <img className="name" src={NameLabel} alt="name"/>
-        <img className="label" src={TitleLabel} alt="label"/>
-
-        <div className="contactsContainer">
-          <a className="resumeLink" href="https://firebasestorage.googleapis.com/v0/b/supermattmattsworld.appspot.com/o/MatthewLiResume.pdf?alt=media&token=6e683921-a262-4a0c-b4f4-54663bbe9ec3">
-            <div className="resumeBtn">Download My Résumé</div>
-          </a>
-        </div>
+        <div className="name"> MATTHEW LI </div>
+        <div className="label">A SOFTWARE ENGINEER</div>
+        <div className="label">BUILDING THE NEXT BEST THING!</div>
       </div>
       
       <a href="#about">

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>base background</title>
-    <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="50%" cy="51.2085685%" fx="50%" fy="51.2085685%" r="116.809555%" gradientTransform="translate(0.500000,0.512086),scale(0.711111,1.000000),scale(1.000000,1.124330),translate(-0.500000,-0.512086)" id="radialGradient-1">
-            <stop stop-color="#00A3FF" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        <radialGradient cx="50%" cy="50.1775329%" fx="50%" fy="50.1775329%" r="85.2515319%" gradientTransform="translate(0.500000,0.501775),scale(0.711111,1.000000),rotate(90.000000),scale(1.000000,1.066258),translate(-0.500000,-0.501775)" id="radialGradient-1">
+            <stop stop-color="#3A3F5B" offset="0%"></stop>
+            <stop stop-color="#121837" offset="100%"></stop>
         </radialGradient>
     </defs>
     <g id="logo-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

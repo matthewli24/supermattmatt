@@ -23,6 +23,12 @@ const About = () => {
         I like to watch anime, workout, play basketball, cook, play video games and poker.
       </p>
 
+      <div className="contactsContainer">
+        <a className="resumeLink" href="https://firebasestorage.googleapis.com/v0/b/supermattmattsworld.appspot.com/o/MatthewLiResume.pdf?alt=media&token=6e683921-a262-4a0c-b4f4-54663bbe9ec3">
+          <div className="resumeBtn">Download My Résumé</div>
+        </a>
+      </div>
+
       {/* <MyCarousel/> */}
 
     </div>
