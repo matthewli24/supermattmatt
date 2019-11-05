@@ -1,11 +1,16 @@
 import React from 'react';
-import './footer.scss'
+import ScrollableAnchor from 'react-scrollable-anchor';
 import SocialMediaBar from '../socialMediaBar/socialMediaBar'
 import EmailForm from '../emailForm/emailForm'
+import './footer.scss'
+
 const Footer = () => {
   return (
     <div className="footerWrapper">
-      <div className="footerEmailLabel">Write Me An Email</div>
+      <ScrollableAnchor id={'contacts'}>
+        <div className="footerEmailLabel">Email Me</div>
+      </ScrollableAnchor>
+      
       <EmailForm/>
       <div className="footerFollowLabel">Feel Free To Follow Me on Social Media</div>
       <SocialMediaBar/>

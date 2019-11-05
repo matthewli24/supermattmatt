@@ -3,12 +3,13 @@
 .navbarWrapper {
   width: 100%;
   align-items: center;
-  background-color: $BabyBlue;
+  background-color: $VictoryBlue;
   box-shadow: 0 0 5px 0 black;
   color: white;
   display: flex;
   flex-direction: row;
-  font: bold 30px $Lora;
+  font: 30px $Lora;
+  font-weight: 400;
   justify-content: space-between;
   overflow: hidden;
   position: fixed;
@@ -18,7 +19,7 @@
   .topNavbarContainer {
     height: 100px;
     align-self: center;
-    background-color: $BabyBlue;
+    background-color: $VictoryBlue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -107,7 +108,7 @@
       height: 100%;
       width: 100%;
       align-items: center;
-      background: $BabyBlue;
+      background: $VictoryBlue;
       display: flex;
       flex-direction: column;
 
