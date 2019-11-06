@@ -4,6 +4,7 @@ import './about.scss';
 
 import ProfilePicture from '../../assets/pictures/circular_profile_pic.svg'
 import MyCarousel from '../myCarousel/myCarousel';
+import MyCarouselv3 from '../myCarousel/myCarouselv3'
 
 const About = () => {
   return (
@@ -43,7 +44,6 @@ const About = () => {
                   Selected for a full stack competitive JavaScript training program, as
                   one of 122 students out of 400+ applicants.
                 </li>
-
                 <li className="expListItem">
                   Learn in-demand technologies like React, Node, Express, and
                   Postgre SQL as well as industry best practices for design,
@@ -60,7 +60,6 @@ const About = () => {
                 <li className="expListItem">
                 Developed ed-tech software in an agile environment with a team of 10 developers.
                 </li>
-
                 <li className="expListItem">
                   Collaborated with the Product and Marketing team to deploy a
                   new top bar for Nearpod's website to improve user experience.
@@ -77,16 +76,11 @@ const About = () => {
               </ul>
             </div>
           </div>
-         
         </div>
-        
       </div>
 
-     
-
-      
-
-      {/* <MyCarousel/> */}
+    
+      <MyCarouselv3/>
 
     </div>
 

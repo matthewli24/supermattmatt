@@ -28,7 +28,7 @@ class App extends Component {
         <Navbar/>
         <Jumbotron/>
         <About/>
-        <Experience/>
+        {/* <Experience/> */}
         <Projects/>
         <Education/>
         <Skills/>
