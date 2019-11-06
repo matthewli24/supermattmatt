@@ -18,20 +18,32 @@ class MyCarouselv3 extends Component {
   render() {
     return(
       <div className="myCarouselv3Wrapper">
-        <div className="carouselItemContainer">
-          <img className="carouselItem" src={CppLogo} alt="cpp"/>
-          <img className="carouselItem" src={FirebaseLogo} alt="firebase"/>
-          <img className="carouselItem" src={GithubLogo} alt="github"/>
-          <img className="carouselItem" src={MySQLLogo} alt="mysql"/>
-          <img className="carouselItem" src={NodeJsLogo} alt="node"/>
-          <img className="carouselItem" src={ReactLogo} alt="react"/>
-          <img className="carouselItem" src={PythonLogo} alt="python"/>
-          <img className="carouselItem" src={HtmlCssJsLogos} alt="html"/>
-          <img className="carouselItem" src={SassLogo} alt="sass"/>
-          <img className="carouselItem" src={SketchLogo} alt="sketch"/>
-          <img className="carouselItem" src={SwiftLogo} alt="swift"/>
+        <div className="sliderContainer">       
+          <div className="slider">
+            <img className="carouselItem" src={CppLogo} alt="cpp"/>
+            <img className="carouselItem" src={FirebaseLogo} alt="firebase"/>
+            <img className="carouselItem" src={GithubLogo} alt="github"/>
+            <img className="carouselItem" src={MySQLLogo} alt="mysql"/>
+            <img className="carouselItem" src={NodeJsLogo} alt="node"/>
+            <img className="carouselItem" src={ReactLogo} alt="react"/>
+            <img className="carouselItem" src={PythonLogo} alt="python"/>
+            <img className="carouselItem" src={HtmlCssJsLogos} alt="html"/>
+            <img className="carouselItem" src={SassLogo} alt="sass"/>
+            <img className="carouselItem" src={SketchLogo} alt="sketch"/>
+            <img className="carouselItem" src={SwiftLogo} alt="swift"/>
+            <img className="carouselItem" src={CppLogo} alt="cpp"/>
+            <img className="carouselItem" src={FirebaseLogo} alt="firebase"/>
+            <img className="carouselItem" src={GithubLogo} alt="github"/>
+            <img className="carouselItem" src={MySQLLogo} alt="mysql"/>
+            <img className="carouselItem" src={NodeJsLogo} alt="node"/>
+            <img className="carouselItem" src={ReactLogo} alt="react"/>
+            <img className="carouselItem" src={PythonLogo} alt="python"/>
+            <img className="carouselItem" src={HtmlCssJsLogos} alt="html"/>
+            <img className="carouselItem" src={SassLogo} alt="sass"/>
+            <img className="carouselItem" src={SketchLogo} alt="sketch"/>
+            <img className="carouselItem" src={SwiftLogo} alt="swift"/>
+          </div>
         </div>
-
       </div>
     )
   }

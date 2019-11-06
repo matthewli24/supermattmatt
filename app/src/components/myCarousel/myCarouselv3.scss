@@ -1,26 +1,44 @@
 .myCarouselv3Wrapper {
   width: 100%;
   height: 500px;
-  overflow-x: hidden;
-
-  .carouselItemContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  background: #E3E3E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	
+  .sliderContainer {
+    overflow: hidden;
     position: relative;
-    animation: forward-animation 35s linear infinite both;
-
-    .carouselItem {
-      width: 120px;
-      padding-left: 50px;
-      padding-right: 50px;    
+   
+    &::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg);
+    }
+    &::before {
+      left: 0;
+      top: 0;
+    }
+    
+    .slider {
+      width: calc(250px * 22);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      animation: forward-animation 35s linear infinite;
+      
+      .carouselItem {
+        width: 150px;
+        padding-left: 50px;
+        padding-right: 50px;    
       }
     }
   }
+  
+}
+
 
 @keyframes forward-animation {
-  from {transform: translateX(-2370px);}
-  to { transform: translateX(100vw);}
+  0% {transform: translateX(0);}
+  100% { transform: translateX(calc(-250px * 11));}
 }
