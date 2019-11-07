@@ -53,7 +53,10 @@ const About = () => {
             Besides software development, I like to workout, cook, watch anime, and play video games.
           </p>
 
-          <p className="experienceHeader">Experience:</p>
+          <div className="experienceHeader">
+          <p className="experienceText">Experience</p>
+          </div>
+          
           <div className="experienceContainer">
             <div className="expItem">
               <div className="expTitle">CUNY Tech Prep | NYC Tech Talent Pipeline</div>

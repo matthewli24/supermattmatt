@@ -108,8 +108,16 @@
       }
 
       .experienceHeader {
-        font: 30px $Lora;
-        font-weight: 400;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .experienceText{
+          font: 30px $OpenSans;
+          font-weight: 400;
+          text-align: center;
+          border-bottom: 1px solid $VictoryBlue;
+        }
       }
       .experienceContainer {
         .expItem {

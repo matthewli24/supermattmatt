@@ -20,4 +20,21 @@
     padding-top: 20px;
     padding-left: 15px;
   }
+  
+  .backToTop {
+    color: inherit;
+    font: 14px $Lora;
+    list-style: none;
+    padding-bottom: 20px;
+    text-decoration: none;
+    position: relative;
+    &:hover {
+      color: red;
+      top: -1px;
+    }
+    .upArrow {
+      width: 15px;
+      padding-left: 5px;
+    }
+  }
 }
