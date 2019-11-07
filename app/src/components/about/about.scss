@@ -20,85 +20,10 @@
     margin-top: 50px;
     display: flex;
 
-    .profileSection {
-      margin-left: 30px;
-      margin-right: 100px;
-      .profilePicture {
-        width: 200px;
-      }
-      .educationContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-family: $Lora;
-        padding-top: 25px;
-        
-        .schoolName {
-          font-size: 24px;
-          font-weight: 700;
-          text-align: center;
-          display: none;
-        }
-        .schoolImage {
-          width: 200px;
-        }
-        .degreeContainer {
-          width: 200px;
-          display: flex;
-          padding-top: 12px;
-          .degreeIcon {
-            width: 30px;
-            padding-right: 5px;
-          }
-          .degree {
-            width: 100%;
-            .degreeName {
-              font-size: 14px;
-            }
-            .degreeDate {
-              font-size: 12px;
-            }
-          }
-        }
-      }
-      .contactsContainer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-top: 8px;
-        margin-top: 10px;
-    
-        .contactLink {
-          color: inherit;
-          text-decoration: none;
-          padding-top: 10px;
-        
-          .contactBtn {
-            width: 170px;
-            height: 18px;
-            background: $VictoryBlue; 
-            border: 0 none;
-            color: #fff;
-            cursor: pointer;
-            border-radius: 10px; 
-            font: bold italic 14px $Lora;
-            font-weight: 600;
-            outline: none;
-            padding: 5px 15px;
-            text-align: center;
-      
-            &:hover {
-              background: $DarkBrown;
-            }
-          }
-        }
-      }
-    }
     
     .aboutDescriptionSection {
-
+      width: auto;
+      
       .aboutDescription {
         font: 20px $OpenSans;
         font-weight: 300;
