@@ -9,7 +9,7 @@
 
   .emailForm {
     width: 500px;
-    border: solid 2px $SkyBlue;
+    border: solid 2px white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +47,7 @@
  
     .emailSubmitButton {
       width: 100px;
-      background: $SkyBlue; 
+      background: $DirtyBrown; 
       border: 0 none;
       color: #fff;
       cursor: pointer;
@@ -62,7 +62,7 @@
         transform: scale(1.1, 1.1);
       }
       &:active {
-        background-color: #00a8ff;
+        background-color: $DarkBrown;
         
         transform: scale(1.0, 1.0);
       }

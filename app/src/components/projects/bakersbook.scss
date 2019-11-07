@@ -9,6 +9,13 @@
 
   .bakersBookLogo {
     width: 40%;
+    @media screen and (max-width: 750px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 499px) {
+      width: 57%;
+    }
+
   }
 
   .bakersBookDescription {

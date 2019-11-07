@@ -16,14 +16,15 @@ const Projects = () => {
         </div>
       </ScrollableAnchor>
 
-
       <Moodify/>
       <BakersBook/>
       <InStyle/>
 
       <div className="moreProjectsContainer">
           <a className="githublink" href="https://github.com/matthewli24">
-            More Projects On My GitHub ...
+            View More Projects On My GitHub ... 
+          </a>
+          <a href="https://github.com/matthewli24">
             <img className="githubicon" src={GitHubIcon} alt="github"/>
           </a>
       </div>
