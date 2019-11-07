@@ -2,16 +2,18 @@
 
 .footerWrapper {
   width: 100%;
-  color: rgb(121, 121, 121);
+  background: $VictoryBlue;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   font: bold 25px $Lora;
-  padding-top: 30px;
-  border-top: 5px solid $SkyBlue;
-
+ 
+  .footerTriangle {
+    width: 100%;
+  }
   .footerEmailLabel {
-    padding: 15px;
+    padding: 50px 10px 10px 10px;
   }
 
   .footerFollowLabel {

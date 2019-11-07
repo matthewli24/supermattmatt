@@ -26,6 +26,39 @@
       .profilePicture {
         width: 200px;
       }
+      .educationContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: $Lora;
+        padding-top: 25px;
+        
+        .schoolName {
+          font-size: 24px;
+          font-weight: 700;
+          text-align: center;
+          display: none;
+        }
+        .schoolImage {
+          width: 200px;
+        }
+        .degreeContainer {
+          display: flex;
+          padding-top: 12px;
+          .degreeIcon {
+            width: 30px;
+            padding-right: 3px;
+          }
+          .degree {
+            .degreeName {
+              font-size: 14px;
+            }
+            .degreeDate {
+              font-size: 12px;
+            }
+          }
+        }
+      }
       .contactsContainer {
         width: 100%;
         display: flex;
@@ -68,6 +101,10 @@
         font: 20px $OpenSans;
         font-weight: 300;
         line-height: 36px;
+
+        &::first-letter {
+          font-size: 50px;
+        }
       }
 
       .experienceHeader {

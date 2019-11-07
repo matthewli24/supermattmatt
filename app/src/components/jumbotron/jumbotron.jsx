@@ -1,12 +1,8 @@
 import React from 'react';
 import './jumbotron.scss';
-// import './logo.css'
 
-import Portrait from '../../assets/pictures/profilepic.jpg';
-import SocialMediaBar from '../socialMediaBar/socialMediaBar';
 import Logo from '../../assets/landingAssets/landing_logo.svg'
 import DownArrow from '../../assets/icons/downArrow.svg'
-
 
 
 const Jumbotron = () => {

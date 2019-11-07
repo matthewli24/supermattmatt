@@ -28,8 +28,8 @@ class App extends Component {
         <Navbar/>
         <Jumbotron/>
         <About/>
+        <Skills/>
         <Projects/>
-        <Education/>
         <Footer/>
       </div>
     );

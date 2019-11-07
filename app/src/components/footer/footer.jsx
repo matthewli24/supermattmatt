@@ -4,12 +4,16 @@ import SocialMediaBar from '../socialMediaBar/socialMediaBar'
 import EmailForm from '../emailForm/emailForm'
 import './footer.scss'
 
+import InvertedTriangle from '../../assets/icons/invertedTriangle.svg'
+
 const Footer = () => {
   return (
     <div className="footerWrapper">
+      <img className="footerTriangle" src={InvertedTriangle} alt='' />
       <ScrollableAnchor id={'contacts'}>
         <div className="footerEmailLabel">Email Me</div>
       </ScrollableAnchor>
+
       
       <EmailForm/>
       <div className="footerFollowLabel">Feel Free To Follow Me on Social Media</div>

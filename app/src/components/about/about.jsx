@@ -3,8 +3,9 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import './about.scss';
 
 import ProfilePicture from '../../assets/pictures/circular_profile_pic.svg'
-import MyCarousel from '../myCarousel/myCarousel';
-import MyCarouselv3 from '../myCarousel/myCarouselv3'
+import ComputerIcon from '../../assets/icons/computer-icon.png';
+import ChemistryIcon from '../../assets/icons/chemistry-icon.png';
+import HunterCollege from '../../assets/icons/hunter-college-logo.png';
 
 const About = () => {
   return (
@@ -16,11 +17,29 @@ const About = () => {
       <div className="aboutContainer">
         <div className="profileSection">
           <img className="profilePicture" src={ProfilePicture} alt='profile' />
+          <div className="educationContainer">
+            <div className="schoolName">Hunter College</div>
+            <img className="schoolImage" src={HunterCollege} alt="Hunter College"/>
+            <div className="degreeContainer">
+              <img className="degreeIcon" src={ComputerIcon} />
+              <div className="degree">
+                <div className="degreeName"> B.A. Computer Science</div>
+                <div className="degreeDate">Spring 2019</div>
+              </div>
+            </div>
+            <div className="degreeContainer">
+              <img className="degreeIcon" src={ChemistryIcon} />
+              <div className="degree">
+                <div className="degreeName">B.A. BioChemistry</div>
+                <div className="degreeDate">Fall 2013</div> 
+              </div>
+            </div>
+            
+          </div>
           <div className="contactsContainer">
             <a className="contactLink" href="https://firebasestorage.googleapis.com/v0/b/supermattmattsworld.appspot.com/o/MatthewLiResume.pdf?alt=media&token=6e683921-a262-4a0c-b4f4-54663bbe9ec3">
               <div className="contactBtn">Download My Résumé</div>
             </a>
-
             <a className="contactLink" href="#contacts">
               <div className="contactBtn">Contact Me</div>
             </a>
@@ -29,7 +48,7 @@ const About = () => {
         
         <div className="aboutDescriptionSection">
           <p className="aboutDescription">
-            Hello, I am a software engineer who is passionate in building applications that may someday change other's lives for the better. 
+            Hello, I am a software engineer who is passionate about building applications that may someday change other's lives for the better. 
             I am always learning and improving my craft.  
             Besides software development, I like to workout, cook, watch anime, and play video games.
           </p>
@@ -78,13 +97,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
-    
-      <MyCarouselv3/>
-
-    </div>
-
-    
+    </div>    
   )
 }
 
