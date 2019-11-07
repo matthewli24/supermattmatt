@@ -72,7 +72,11 @@
 
   .downArrow {
     width: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
+    @media screen and (max-width: 425px) {
+      position: relative;
+      bottom: 70px;
+    }
   }
   
 }

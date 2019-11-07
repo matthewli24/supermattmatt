@@ -3,8 +3,8 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import './about.scss';
 
 import ProfilePicture from '../../assets/pictures/circular_profile_pic.svg'
-import ComputerIcon from '../../assets/icons/computer-icon.png';
-import ChemistryIcon from '../../assets/icons/chemistry-icon.png';
+import ComputerIcon from '../../assets/icons/computer-icon.svg';
+import ChemistryIcon from '../../assets/icons/chemistry-icon.svg';
 import HunterCollege from '../../assets/icons/hunter-college-logo.png';
 
 const About = () => {
