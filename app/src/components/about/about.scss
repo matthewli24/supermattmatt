@@ -43,6 +43,7 @@
           width: 200px;
         }
         .degreeContainer {
+          width: 200px;
           display: flex;
           padding-top: 12px;
           .degreeIcon {
@@ -50,6 +51,7 @@
             padding-right: 5px;
           }
           .degree {
+            width: 100%;
             .degreeName {
               font-size: 14px;
             }

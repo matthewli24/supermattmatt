@@ -76,11 +76,11 @@ const About = () => {
             </div>
 
             <div className="expItem">
-              <div className="expTitle">SOFTWARE ENGINEER INTERN AT NEARPOD</div>
+              <div className="expTitle">Software Engineering Intern At Nearpod</div>
               <div className="expDates">June 2018 - August 2018</div>
               <ul className="expList">
                 <li className="expListItem">
-                Developed ed-tech software in an agile environment with a team of 10 developers.
+                  Developed ed-tech software in an agile environment with a team of 10 developers.
                 </li>
                 <li className="expListItem">
                   Collaborated with the Product and Marketing team to deploy a
