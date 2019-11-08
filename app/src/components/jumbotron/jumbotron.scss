@@ -72,11 +72,22 @@
 
   .downArrow {
     width: 50px;
-    padding-bottom: 30px;
+    margin-bottom: 40px;
+    -webkit-animation: animate-arrow 1s infinite  alternate;
+    animation: animate-arrow 1s infinite  alternate;
+
     @media screen and (max-width: 425px) {
       width: 35px;
       position: relative;
       bottom: 80px;
+    }
+    @-webkit-keyframes animate-arrow {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-15px); }
+    }
+    @keyframes animate-arrow {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-15px); }
     }
   }
   
