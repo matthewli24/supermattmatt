@@ -36,7 +36,6 @@ class Navbar extends Component {
     const responsiveNavList = this.state.hamburgerToggled ?
       <nav className="responsiveNavbarContainer">
         <a className="responsiveNavListItem" href="#about">About</a>
-        <a className="navListItem" href="#skills">Skills</a>
         <a className="responsiveNavListItem" href="#projects">Projects</a>
         <a className="responsiveNavListItem" href="#contacts">Contact</a>   
       </nav> 
@@ -60,9 +59,7 @@ class Navbar extends Component {
         
         <div className="navbarContainer">
           <a className="navListItem" href="#about">About</a>
-          <a className="navListItem" href="#skills">Skills</a>
           <a className="navListItem" href="#projects">Projects</a>
-          
           <a className="navListItem" href="#contacts">Contact</a>   
           
         </div>
