@@ -8,7 +8,7 @@
   margin: 40px 0px 80px 0px;
 
   .skillsHeader {
-    font: 40px $Lora;
+    font: 35px $Lora;
     border-bottom: 3px solid $VictoryBlue;
     text-align: center;
   }
@@ -35,6 +35,10 @@
         padding: 5px;
       }
     }
+  }
+
+  @media screen and (max-width: 699px) {
+    display: none;
   }
   
 }
