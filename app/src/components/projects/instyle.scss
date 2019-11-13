@@ -32,11 +32,51 @@
     }
   }
 
-  .instyleDemo {
-    width: 25%;
+  .demos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .demoDescription {
+      font: 18px $OpenSans;
+      font-weight: 300;
+      text-align: center;
+      padding-left: 20px
+    }
+    .demoContainer {
+      width: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .iphoneContainer {
+        width: 500px;
+        margin-left: 140px;
+      }
+      .instyleDemo {
+        width: 137px;
+        position: relative;
+        top: 12px;
+        right: 320px;
+      }
+    }
 
     @media screen and (max-width: 799px) {
-      width: 40%;
+      display: flex;
+      flex-direction: column;
     }
+
   }
+  
+
+  // .instyleDemo {
+  //   width: 25%;
+
+  //   @media screen and (max-width: 799px) {
+  //     width: 40%;
+  //   }
+  // }
 }

@@ -3,7 +3,10 @@ import './instyle.scss';
 
 import InStyleLanding from '../../assets/instyle/instyle-landing.svg';
 import InStyleDemo from '../../assets/instyle/instyleDemo.gif';
+import InStyleDemo1 from '../../assets/instyle/instyledemo1.gif';
+import InStyleDemo2 from '../../assets/instyle/instyledemo2.gif';
 import InStyleLogo from '../../assets/instyle/instyle-logo.svg';
+import iPhoneContainer from '../../assets/instyle/iphoneContainer.png'
 
 const Instyle = () => {
   return(
@@ -30,7 +33,21 @@ const Instyle = () => {
         </p>
       </div>
 
-      <img className="instyleDemo" src={InStyleDemo} alt="demo"/>
+      <div className="demos">
+        <div className="demoDescription">Login/Register And Browse</div>
+        <div className="demoContainer">
+          <img className="iphoneContainer" src={iPhoneContainer} alt="iphone"/>
+          <img className="instyleDemo" src={InStyleDemo1} alt="demo"/>
+        </div>
+        
+        <div className="demoDescription">Sell Your Own Products!</div>
+        <div className="demoContainer">
+          <img className="iphoneContainer" src={iPhoneContainer} alt="iphone"/>
+          <img className="instyleDemo" src={InStyleDemo2} alt="demo"/>
+        </div>
+      </div>
+      
+      
 
     </div>
   )
