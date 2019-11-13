@@ -43,8 +43,10 @@
       font: 18px $OpenSans;
       font-weight: 300;
       text-align: center;
-      padding-left: 20px
+      padding-left: 20px;
+      padding-bottom: 30px;
     }
+    
     .demoContainer {
       width: 250px;
       display: flex;
@@ -57,10 +59,7 @@
         margin-left: 140px;
       }
       .instyleDemo {
-        width: 137px;
-        position: relative;
-        top: 12px;
-        right: 320px;
+        width: 200px;
       }
     }
 

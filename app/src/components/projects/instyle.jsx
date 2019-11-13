@@ -36,13 +36,11 @@ const Instyle = () => {
       <div className="demos">
         <div className="demoDescription">Login/Register And Browse</div>
         <div className="demoContainer">
-          <img className="iphoneContainer" src={iPhoneContainer} alt="iphone"/>
           <img className="instyleDemo" src={InStyleDemo1} alt="demo"/>
         </div>
         
         <div className="demoDescription">Sell Your Own Products!</div>
         <div className="demoContainer">
-          <img className="iphoneContainer" src={iPhoneContainer} alt="iphone"/>
           <img className="instyleDemo" src={InStyleDemo2} alt="demo"/>
         </div>
       </div>
