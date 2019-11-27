@@ -9,7 +9,6 @@
 
   .emailForm {
     width: 500px;
-    border: solid 2px white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,30 +16,34 @@
 
     .emailFormitem {
       width: 100%;
-      align-items: center;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       padding: 10px;
 
       .itemLabel{
         font: bold 20px $Lora;
+        margin: 10px 0;
       }
 
-      .itemInput{
+      .itemInput {
         font: bold 15px $Lora;
-        margin-left: 40px;
+        background: inherit;
+        border: none;
+        border-bottom: 1px solid #e7e7e7;
+        color: #ffffff;
         outline: none;
-        padding: 3px;
+        padding-bottom: 7px;
       }
 
       .messageTextArea{
-        width: 200px;
+        width: 92%;
         height: 150px;
         font: bold 15px $Lora;
-        margin-left: 12px;
+        margin: 0px 10px 0px 12px;
         outline: none;
         padding: 5px;
+        resize: none;
       }
 
     }

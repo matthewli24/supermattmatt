@@ -14,23 +14,29 @@ class EmailForm extends Component {
     }
   }
 
-  handleEmailChange = (event) => {
+  handleOnChange = (event) => {
     this.setState({
-      email: event.target.value
-    });
+      [event.target.id]: event.target.value
+    })
   }
 
-  handleNameChange = (event) => {
-    this.setState({
-      name: event.target.value
-    });
-  }
+  // handleEmailChange = (event) => {
+  //   this.setState({
+  //     email: event.target.value
+  //   });
+  // }
 
-  handleMessageChange = (event) => {
-    this.setState({
-      message: event.target.value
-    });
-  }
+  // handleNameChange = (event) => {
+  //   this.setState({
+  //     name: event.target.value
+  //   });
+  // }
+
+  // handleMessageChange = (event) => {
+  //   this.setState({
+  //     message: event.target.value
+  //   });
+  // }
 
   handleSubmit = event => {
     event.preventDefault();
@@ -88,33 +94,36 @@ class EmailForm extends Component {
 
         <form className="emailForm" onSubmit={this.handleSubmit}>
           <div className="emailFormitem">
-            <label className="itemLabel"> Email :</label>
+            <label className="itemLabel"> Email </label>
             <input className="itemInput"
-                  type="text" 
+                  id="email"
+                  type="email" 
                   required 
                   placeholder="Email Address"
                   value={this.state.email}
-                  onChange={this.handleEmailChange}/>
+                  onChange={this.handleOnChange}/>
           </div>
           
           <div className="emailFormitem">
-            <label className="itemLabel"> Name :</label>
+            <label className="itemLabel"> Name </label>
             <input className="itemInput"
+                  id="name"
                   type="text" 
                   required 
                   placeholder="Name"
                   value={this.state.name}
-                  onChange={this.handleNameChange}/>
+                  onChange={this.handleOnChange}/>
           </div>
 
           <div className="emailFormitem">
-            <label className="itemLabel"> Message : </label>
+            <label className="itemLabel"> Message </label>
             <textarea className="messageTextArea"
-                      placeholder="Write Something Awesome or Not So Awesome ..."
+                      id="message"
+                      placeholder="Write Something Awesome ..."
                       required
                       maxLength={250}
                       value={this.state.message}
-                      onChange={this.handleMessageChange}
+                      onChange={this.handleOnChange}
             />
           </div>
 
