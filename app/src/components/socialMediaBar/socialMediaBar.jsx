@@ -14,7 +14,7 @@ const SocialMediaBar = () => {
     <div className="socialMediaBarWrapper">
       <a href="https://www.linkedin.com/in/matthewli24/"><img className="socialMediaIcon" src={LinkedInIcon} alt="linkedIn"/></a>
       <a href="https://www.facebook.com/mattmatt2491"><img className="socialMediaIcon" src={FacebookIcon} alt="facebook"/></a> 
-      <a href="https://www.instagram.com/supermattmatt/"><img className="socialMediaIcon" src={InstagramIcon} alt="instagram"/></a>
+      <a href="https://www.instagram.com/1unstoppableperson/"><img className="socialMediaIcon" src={InstagramIcon} alt="instagram"/></a>
       <a href="https://twitter.com/supermattmatt24"><img className="socialMediaIcon" src={TwitterIcon} alt="twitter"/></a>
       <a href="https://github.com/matthewli24"><img className="socialMediaIcon" src={GitHubIcon} alt="github"/></a>
       
