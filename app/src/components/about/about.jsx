@@ -17,7 +17,8 @@ const About = () => {
         
         <div className="aboutDescriptionSection">
           <p className="aboutDescription">
-            Hello, I am a software engineer who is passionate about building applications that may someday change other's lives for the better. 
+            Hello, I am a software engineer who is passionate about building applications that may someday change other's lives for the better.
+            I am proficient with javascript, and experienced with React.  
             I am always learning and improving my craft.  
             Besides software development, I like to workout, cook, watch anime, and play video games.
           </p>
