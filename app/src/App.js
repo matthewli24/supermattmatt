@@ -13,13 +13,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -120, scrollDuration: 300})
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      //firebase: new Firebase()
-    };
-}
-
+  
   render() {
     return (
       <div className="appContainer">

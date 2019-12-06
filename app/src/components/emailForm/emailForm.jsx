@@ -20,24 +20,6 @@ class EmailForm extends Component {
     })
   }
 
-  // handleEmailChange = (event) => {
-  //   this.setState({
-  //     email: event.target.value
-  //   });
-  // }
-
-  // handleNameChange = (event) => {
-  //   this.setState({
-  //     name: event.target.value
-  //   });
-  // }
-
-  // handleMessageChange = (event) => {
-  //   this.setState({
-  //     message: event.target.value
-  //   });
-  // }
-
   handleSubmit = event => {
     event.preventDefault();
     let email = this.state.email;
@@ -78,8 +60,6 @@ class EmailForm extends Component {
         console.log(error)
       })
     }
-
-
   }
 
   render() {
