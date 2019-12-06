@@ -4,8 +4,6 @@ import Firebase from './firebase/firebase';
 import Navbar from './components/navbar/navbar';
 import Jumbotron from './components/jumbotron/jumbotron';
 import About from './components/about/about'
-import Education from './components/education/education';
-import Experience from './components/experience/experience';
 import Projects from './components/projects/projects';
 import Skills from './components/skills/skills';
 import Footer from './components/footer/footer';
