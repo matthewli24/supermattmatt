@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Firebase from './firebase/firebase';
 
 import Navbar from './components/navbar/navbar';
 import Jumbotron from './components/jumbotron/jumbotron';
@@ -13,7 +12,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({offset: -120, scrollDuration: 300})
 
 class App extends Component {
-  
+
   render() {
     return (
       <div className="appContainer">

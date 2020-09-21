@@ -18,20 +18,20 @@ class Profile extends Component {
     return (
       <div className="profileWrapper">
         <div className="profileSection">
-          <img className="profilePicture" src={ProfilePicture} onLoad={this.handleOnLoad} alt='profile image' />
+          <img className="profilePicture" src={ProfilePicture} onLoad={this.handleOnLoad} alt='profile' />
           <div className="educationContainer">
             <img className="schoolImage" src={HunterCollege} alt="Hunter College" />
-  
+
             <div className="degreeWrapper">
               <div className="degreeContainer">
-                <img className="degreeIcon" src={ComputerIcon} />
+                <img className="degreeIcon" src={ComputerIcon} alt='degree icon' />
                 <div className="degree">
                   <div className="degreeName"> B.A. Computer Science</div>
                   <div className="degreeDate">Spring 2019</div>
                 </div>
               </div>
               <div className="degreeContainer">
-                <img className="degreeIcon" src={ChemistryIcon} />
+                <img className="degreeIcon" src={ChemistryIcon} alt='degree icon' />
                 <div className="degree">
                   <div className="degreeName">B.A. BioChemistry</div>
                   <div className="degreeDate">Fall 2013</div>
