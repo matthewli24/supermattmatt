@@ -14,20 +14,33 @@ const About = () => {
       <div className="aboutContainer">
 
         <Profile/>
-        
+
         <div className="aboutDescriptionSection">
           <p className="aboutDescription">
             Hello, I am a software engineer who is passionate about building applications that may someday change other's lives for the better.
-            I am proficient with javascript, and experienced with React.  
-            I am always learning and improving my craft.  
+            I am proficient with javascript, and experienced with React.
+            I am always learning and improving my craft.
             Besides software development, I like to workout, cook, watch anime, and play video games.
           </p>
 
           <div className="experienceHeader">
           <p className="experienceText">Experience</p>
           </div>
-          
+
           <div className="experienceContainer">
+            <div className="expItem">
+                <div className="expTitle">Software Engineer at COTA Healthcare</div>
+                <div className="expDates">February 2020 - Present</div>
+                <ul className="expList">
+                  <li className="expListItem">
+                    Build and developed Elixir microservices.
+                  </li>
+                  <li className="expListItem">
+                    Worked on Angular application.
+                  </li>
+                </ul>
+              </div>
+
             <div className="expItem">
               <div className="expTitle">CUNY Tech Prep | NYC Tech Talent Pipeline</div>
               <div className="expDates">August 2018 - August 2019</div>
@@ -70,7 +83,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>    
+    </div>
   )
 }
 
